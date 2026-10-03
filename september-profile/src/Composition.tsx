@@ -1,5 +1,5 @@
 import { Composition } from "remotion";
-import { Scene1 } from "./Scene1";
+import { MainComp } from "./MainComp";
 import "./index.css";
 
 export const MyComposition = () => {
@@ -7,8 +7,8 @@ export const MyComposition = () => {
     <>
       <Composition
         id="DoanHuuHungProfile"
-        component={Scene1}
-        durationInFrames={600} // 10s at 60fps
+        component={MainComp}
+        durationInFrames={3600} // 60s at 60fps
         fps={60}
         width={1920}
         height={1080}
